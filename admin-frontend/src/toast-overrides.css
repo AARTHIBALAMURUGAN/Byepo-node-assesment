@@ -1,0 +1,32 @@
+.Toastify__toast-container {
+  width: min(96vw, 760px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Toastify__toast {
+  border-radius: 10px;
+  min-height: 52px;
+  align-items: flex-start;
+}
+
+.Toastify__toast-body {
+  display: block;
+  margin: 0;
+  padding-right: 8px;
+  white-space: pre-wrap;
+  overflow: visible;
+  text-overflow: clip;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  line-height: 1.4;
+  max-height: none;
+}
+
+.Toastify__toast-body > div {
+  white-space: pre-wrap;
+  overflow: visible;
+  text-overflow: clip;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
