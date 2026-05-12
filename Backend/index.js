@@ -13,7 +13,7 @@ connectDB();
 const allowedOrigins = [
   "https://byepo-node-assesment-g8dl.vercel.app",
   "https://byepo-node-assesment-k2hp.vercel.app",
-  "https://byepo-node-assesment-ag5t9jygz-aarthis-projects-a3dc7b25.vercel.app",
+  "https://byepo-node-assesment.vercel.app",
 
   // "http://localhost:5175",
   // "http://localhost:5174"
