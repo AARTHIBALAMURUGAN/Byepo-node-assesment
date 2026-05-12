@@ -15,8 +15,9 @@ const allowedOrigins = [
   "https://byepo-node-assesment-k2hp.vercel.app",
   "https://byepo-node-assesment.vercel.app",
 
-  // "http://localhost:5175",
-  // "http://localhost:5174"
+ "http://localhost:5175",
+ "http://localhost:5174",
+"http://localhost:5176"
 ];
 
 app.use(

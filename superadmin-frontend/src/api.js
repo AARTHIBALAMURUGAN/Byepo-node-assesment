@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://byepo-node-assesment-1-n97j.onrender.com/api/admin",
+  baseURL: "https://byepo-node-assesment-1-n97j.onrender.com/api/superaddadmin",
 });
 
 export const authConfig = (token) => ({

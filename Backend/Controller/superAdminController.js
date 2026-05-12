@@ -12,8 +12,9 @@ const login = async (req, res) => {
     }
     
     const superAdminEmail = String(process.env.SUPER_ADMIN_EMAIL || "").trim().toLowerCase();
+     const inputEmail = String(email).trim().toLowerCase();
     if (
-      email === superAdminEmail &&
+      inputEmail === superAdminEmail &&
       password === process.env.SUPER_ADMIN_PASSWORD
     ) {
       const token = jwt.sign({ role: "SUPER_ADMIN" }, process.env.JWT_SECRET, {
